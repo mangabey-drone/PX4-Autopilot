@@ -12,7 +12,7 @@
     <plugin name='gz::sim::systems::Imu' filename='gz-sim-imu-system'/>
     <plugin name='gz::sim::systems::AirPressure' filename='gz-sim-air-pressure-system'/>
     <plugin name='gz::sim::systems::Sensors' filename='gz-sim-sensors-system'>
-      <render_engine>ogre2</render_engine>
+      <render_engine>ogre</render_engine>
     </plugin>
     <gui fullscreen='false'>
       <plugin name='3D View' filename='GzScene3D'>
@@ -21,7 +21,7 @@
           <property type='bool' key='showTitleBar'>0</property>
           <property type='string' key='state'>docked</property>
         </gz-gui>
-        <engine>ogre2</engine>
+        <engine>ogre</engine>
         <scene>scene</scene>
         <ambient_light>0.5984631152222222 0.5984631152222222 0.5984631152222222</ambient_light>
         <background_color>0.8984631152222222 0.8984631152222222 0.8984631152222222</background_color>
